@@ -30,7 +30,7 @@
                                     <span>{{ childlink.title | escape }}</span>
                                     {% render 'icon-caret' %}
                                 </summary>
-                                <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
+                                <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce color-{{ block.settings.grandchild_color_scheme }}">
                                     {%- for grandchildlink in childlink.links -%}
                                     <li>
                                         <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
@@ -140,6 +140,38 @@
                 ],
                 "default": "accent-1",
                 "label": "Child Menu Background"
+            },
+            {
+                "type": "select",
+                "id": "grandchild_color_scheme",
+                "options": [
+                  {
+                    "value": "accent-1",
+                    "label": "t:sections.all.colors.accent_1.label"
+                  },
+                  {
+                    "value": "accent-2",
+                    "label": "t:sections.all.colors.accent_2.label"
+                  },
+                  {
+                    "value": "background-1",
+                    "label": "t:sections.all.colors.background_1.label"
+                  },
+                  {
+                    "value": "background-2",
+                    "label": "t:sections.all.colors.background_2.label"
+                  },
+                  {
+                    "value": "inverse",
+                    "label": "t:sections.all.colors.inverse.label"
+                  },
+                  {
+                    "value": "sns-background-1",
+                    "label": "t:sections.all.colors.sns_colors_background_1.label"
+                  }
+                ],
+                "default": "accent-1",
+                "label": "Grand-Child Menu Background"
             }
         ]
     }
