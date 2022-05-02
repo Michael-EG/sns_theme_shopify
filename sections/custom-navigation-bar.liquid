@@ -19,7 +19,7 @@
                         </summary>
                         <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup color-{{ block.settings.dropdown_color_scheme }}" role="list" tabindex="-1">
                         {%- for childlink in link.links -%}
-                            <li>
+                            <li class="color-{{ block.settings.dropdown_color_scheme }}">
                             {%- if childlink.links == blank -%}
                                 <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %} color-{{ block.settings.child_menu_text_color_scheme }}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
@@ -32,7 +32,7 @@
                                 </summary>
                                 <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce color-{{ block.settings.grandchild_color_scheme }}">
                                     {%- for grandchildlink in childlink.links -%}
-                                    <li>
+                                    <li class="color-{{ block.settings.grandchild_color_scheme }}">
                                         <a href="{{ grandchildlink.url }}" class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if grandchildlink.current %} list-menu__item--active{% endif %} color-{{ block.settings.grandchild_menu_text_color_scheme }}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
                                         {{ grandchildlink.title | escape }}
                                         </a>
@@ -138,7 +138,7 @@
                     "label": "t:sections.all.colors.sns_colors_background_1.label"
                   }
                 ],
-                "default": "accent-1",
+                "default": "accent-2",
                 "label": "Main Menu Text"
             },
             {
@@ -202,7 +202,7 @@
                     "label": "t:sections.all.colors.sns_colors_background_1.label"
                   }
                 ],
-                "default": "accent-1",
+                "default": "accent-2",
                 "label": "Child Menu Text"
             },
             {
@@ -266,7 +266,7 @@
                     "label": "t:sections.all.colors.sns_colors_background_1.label"
                   }
                 ],
-                "default": "accent-1",
+                "default": "accent-2",
                 "label": "Grand child Menu Text"
             }
         ]
