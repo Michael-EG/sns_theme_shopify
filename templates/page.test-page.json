@@ -9,13 +9,14 @@
     },
     "16514196945a67d6db": {
       "type": "beauty-icons-bar",
+      "disabled": true,
       "blocks": {
         "961cd29e-04c3-4abb-9205-b21a3f4df55c": {
           "type": "icon_text_button",
           "settings": {
             "button_text": "test1",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page"
+            "button_link": "\/pages\/test-page"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a478": {
@@ -31,7 +32,7 @@
           "settings": {
             "button_text": "test3",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page"
+            "button_link": "\/pages\/test-page"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a480": {
@@ -39,7 +40,7 @@
           "settings": {
             "button_text": "test4",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a481": {
@@ -47,7 +48,7 @@
           "settings": {
             "button_text": "test5",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a482": {
@@ -55,7 +56,7 @@
           "settings": {
             "button_text": "test6",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a483": {
@@ -63,7 +64,7 @@
           "settings": {
             "button_text": "test7",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a484": {
@@ -71,7 +72,7 @@
           "settings": {
             "button_text": "test8",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a485": {
@@ -79,7 +80,7 @@
           "settings": {
             "button_text": "test9",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a486": {
@@ -87,7 +88,7 @@
           "settings": {
             "button_text": "test10",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a487": {
@@ -95,7 +96,7 @@
           "settings": {
             "button_text": "test11",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a488": {
@@ -103,7 +104,7 @@
           "settings": {
             "button_text": "test12",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a489": {
@@ -111,7 +112,7 @@
           "settings": {
             "button_text": "test13",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a490": {
@@ -119,7 +120,7 @@
           "settings": {
             "button_text": "test14",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a491": {
@@ -127,7 +128,7 @@
           "settings": {
             "button_text": "test15",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         },
         "21a54769-3a7c-450b-a859-35efc398a492": {
@@ -135,10 +136,9 @@
           "settings": {
             "button_text": "test16",
             "color_scheme": "accent-1",
-            "button_link": "\/pages/test-page-u"
+            "button_link": "\/pages\/test-page-u"
           }
         }
-
       },
       "block_order": [
         "961cd29e-04c3-4abb-9205-b21a3f4df55c",
@@ -160,10 +160,44 @@
       ],
       "settings": {
       }
+    },
+    "165149085596cb9583": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "c8971ea7-35a5-4fbc-85d7-9ae12f82b9cc": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "main-menu-1"
+          }
+        }
+      },
+      "block_order": [
+        "c8971ea7-35a5-4fbc-85d7-9ae12f82b9cc"
+      ],
+      "settings": {
+      }
+    },
+    "1651490863cb929799": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "eff99055-abc4-47c2-bbc5-24caf0331c8a": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "main-menu"
+          }
+        }
+      },
+      "block_order": [
+        "eff99055-abc4-47c2-bbc5-24caf0331c8a"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "16514196945a67d6db"
+    "16514196945a67d6db",
+    "165149085596cb9583",
+    "1651490863cb929799"
   ]
 }
