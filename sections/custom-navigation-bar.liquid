@@ -14,7 +14,7 @@
                     <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}">
                         <summary class="header__menu-item list-menu__item link focus-inset">
-                        <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                        <span {%- if link.child_active %} class="header__active-menu-item color-{{ block.settings.main_menu_text_color_scheme }}"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                         </summary>
                         <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup color-{{ block.settings.dropdown_color_scheme }}" role="list" tabindex="-1">
@@ -108,6 +108,38 @@
                 ],
                 "default": "accent-1",
                 "label": "Main Menu Background"
+            },
+            {
+                "type": "select",
+                "id": "main_menu_text_color_scheme",
+                "options": [
+                  {
+                    "value": "accent-1",
+                    "label": "t:sections.all.colors.accent_1.label"
+                  },
+                  {
+                    "value": "accent-2",
+                    "label": "t:sections.all.colors.accent_2.label"
+                  },
+                  {
+                    "value": "background-1",
+                    "label": "t:sections.all.colors.background_1.label"
+                  },
+                  {
+                    "value": "background-2",
+                    "label": "t:sections.all.colors.background_2.label"
+                  },
+                  {
+                    "value": "inverse",
+                    "label": "t:sections.all.colors.inverse.label"
+                  },
+                  {
+                    "value": "sns-background-1",
+                    "label": "t:sections.all.colors.sns_colors_background_1.label"
+                  }
+                ],
+                "default": "accent-1",
+                "label": "Main Menu Text"
             },
             {
                 "type": "select",
