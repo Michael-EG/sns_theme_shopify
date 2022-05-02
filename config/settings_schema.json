@@ -69,6 +69,12 @@
         "label": "t:settings_schema.colors.settings.colors_background_1.label"
       },
       {
+        "type": "color",
+        "id": "sns_colors_background_1",
+        "default": "#FFFFFF",
+        "label": "t:settings_schema.colors.settings.sns_colors_background_1.label"
+      },
+      {
         "id": "gradient_background_1",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_background_1.label"
