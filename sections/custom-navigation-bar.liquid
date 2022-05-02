@@ -6,7 +6,7 @@
     {% comment %} <script>console.log({{ block.settings | json }});</script> {% endcomment %}
     {%- if block.settings.menu != blank -%}
       <div class="custom-navigation-bar__main-div color-{{ block.settings.color_scheme }}">
-        <nav class="header__inline-menu">
+        <div class="header__inline-menu custom-navigation-bar__stay-on">
             <ul class="list-menu list-menu--inline" role="list">
             {%- for link in block.settings.menu.links -%}
                 <li>
@@ -17,7 +17,7 @@
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
                         </summary>
-                        <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
+                        <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup color-{{ block.settings.dropdown_color_scheme }}" role="list" tabindex="-1">
                         {%- for childlink in link.links -%}
                             <li>
                             {%- if childlink.links == blank -%}
@@ -54,7 +54,7 @@
                 </li>
             {%- endfor -%}
             </ul>
-        </nav>
+        </div>
       </div>
     {%- endif -%}
 
@@ -108,7 +108,39 @@
                 ],
                 "default": "accent-1",
                 "label": "t:sections.all.colors.label"
-              }
+            },
+            {
+                "type": "select",
+                "id": "dropdown_color_scheme",
+                "options": [
+                  {
+                    "value": "accent-1",
+                    "label": "t:sections.all.colors.accent_1.label"
+                  },
+                  {
+                    "value": "accent-2",
+                    "label": "t:sections.all.colors.accent_2.label"
+                  },
+                  {
+                    "value": "background-1",
+                    "label": "t:sections.all.colors.background_1.label"
+                  },
+                  {
+                    "value": "background-2",
+                    "label": "t:sections.all.colors.background_2.label"
+                  },
+                  {
+                    "value": "inverse",
+                    "label": "t:sections.all.colors.inverse.label"
+                  },
+                  {
+                    "value": "sns-background-1",
+                    "label": "t:sections.all.colors.sns_colors_background_1.label"
+                  }
+                ],
+                "default": "accent-1",
+                "label": "t:sections.all.colors.label"
+            }
         ]
     }
   ],

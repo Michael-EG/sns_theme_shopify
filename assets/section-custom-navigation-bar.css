@@ -1,18 +1,30 @@
 
 .custom-navigation-bar__main-div {
+  /* display: block !important; */
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
   /* margin-left: 10vw; */
   /* margin-right: 10vw; */
   width: 100%;
-  /* max-height: 100px; */
-  /* overflow-y: hidden; */
+  max-height: 20vh;
+  overflow-y: visible;
   /* overflow-x: auto !important; */
   /* overflow: auto !important; */
   white-space: nowrap !important;
   text-align: center;
+  align-items: center;
   /* background-color: bisque; */
-  /* -ms-overflow-style: none; */
-  /* scrollbar-width: none;  */
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+.custom-navigation-bar__main-div::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-navigation-bar__stay-on {
+  display: block !important;
 }
