@@ -120,6 +120,9 @@
           "label": "Outline button",
           "info": "Also used for text links."
         },
+        "sns_colors_background_1": {
+          "label": "SNS Background 1"
+        },
         "colors_background_1": {
           "label": "Background 1"
         },
