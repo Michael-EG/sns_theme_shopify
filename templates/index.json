@@ -68,163 +68,81 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
         "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our products"
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "vichy",
+        "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "enable_desktop_slider": true,
+        "color_scheme": "accent-2",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "1651550007c6814bc7": {
+      "type": "image-with-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "16515500076b11ca6f-0": {
+          "type": "heading",
           "settings": {
-            "collection": ""
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "product": {
-          "type": "product",
+        "16515500076b11ca6f-1": {
+          "type": "text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "16515500076b11ca6f-2": {
+          "type": "button",
           "settings": {
-            "collection": ""
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "16515500076b11ca6f-0",
+        "16515500076b11ca6f-1",
+        "16515500076b11ca6f-2"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/DIY_Egyptian_Magic_Cream_Recipe_for_Natural_Beauty_Skin_Care.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -235,8 +153,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Fast Shipping",
+            "text": "<p>Get your order delivered same day or next day according to your location in Cairo & Giza. We also offer Bloom super saver delivery within 2-3 business days in Cairo & Giza. In other locations you will receive your order within 2-7 business days.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -244,8 +162,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Discounts & Offers",
+            "text": "<p>We keep running different promotions on our website and stores where you can benefit from discounts and cashback vouchers. On the basis of the relevant promotion, the discount may be applied automatically or a coupon code may have to be used to activate of the discount.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -253,8 +171,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Secure Shopping",
+            "text": "<p>We use industry-standard encryption systems for potentially sensitive information. Information passed between your computer and our website cannot be read in the event of someone else intercepting it.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -266,18 +184,70 @@
         "column3"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Why Shopping with us ?",
+        "heading_size": "h0",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651548916c2687b80": {
+      "type": "collapsible-content",
+      "blocks": {
+        "165154891547851f42-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fast Shipping",
+            "icon": "stopwatch",
+            "row_content": "<p>We use industry-standard encryption systems for potentially sensitive information, such as your name, address and other critically sensitive information like your credit \/ debit card details. Information passed between your computer and our website cannot be read in the event of someone else intercepting it.<\/p>",
+            "page": ""
+          }
+        },
+        "165154891547851f42-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Discounts & Offers",
+            "icon": "check_mark",
+            "row_content": "<p>We keep running different promotions on our website and stores where you can benefit from discounts and cashback vouchers. On the basis of the relevant promotion, the discount may be applied automatically or a coupon code may have to be used to activate of the discount.<\/p>",
+            "page": ""
+          }
+        },
+        "165154891547851f42-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Secure Shopping",
+            "icon": "lock",
+            "row_content": "<p>We use industry-standard encryption systems for potentially sensitive information. Information passed between your computer and our website cannot be read in the event of someone else intercepting it.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "165154891547851f42-0",
+        "165154891547851f42-1",
+        "165154891547851f42-2"
+      ],
+      "settings": {
+        "caption": "Sarah Naiem Soliman Pharmacy",
+        "heading": "Why buy from us ?",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/small-business-interior.jpg",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -286,11 +256,9 @@
   "order": [
     "1651527945c2bbfbae",
     "165152828421d00ce9",
-    "image_banner",
-    "rich_text",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "1651550007c6814bc7",
+    "multicolumn",
+    "1651548916c2687b80"
   ]
 }
