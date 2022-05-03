@@ -167,7 +167,13 @@
         "c8971ea7-35a5-4fbc-85d7-9ae12f82b9cc": {
           "type": "custom_nav_menu",
           "settings": {
-            "menu": "main-menu-1"
+            "menu": "main-menu-1",
+            "color_scheme": "accent-1",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-2",
+            "child_menu_text_color_scheme": "accent-2",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
           }
         }
       },
@@ -183,7 +189,13 @@
         "eff99055-abc4-47c2-bbc5-24caf0331c8a": {
           "type": "custom_nav_menu",
           "settings": {
-            "menu": "main-menu"
+            "menu": "main-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-1",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-1"
           }
         }
       },

@@ -2,13 +2,13 @@
   "current": {
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#877678",
-    "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "gradient_accent_1": "radial-gradient(rgba(137, 143, 239, 1), rgba(120, 196, 245, 1) 100%)",
+    "colors_accent_2": "#87677b",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "sns_colors_background_1": "#877678",
     "colors_background_1": "#ffffff",
+    "sns_colors_background_1": "#877678",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
@@ -105,7 +105,7 @@
             "type": "announcement",
             "settings": {
               "text": "SNS Pharmacy",
-              "color_scheme": "accent-1",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
