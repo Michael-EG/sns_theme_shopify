@@ -11,9 +11,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651702838b0339006": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "e93bbf1c-c9ee-4867-87e6-8e3cb4a0abff": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "footer-navigation-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "e93bbf1c-c9ee-4867-87e6-8e3cb4a0abff"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1651702838b0339006"
   ]
 }
