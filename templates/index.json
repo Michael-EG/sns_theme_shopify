@@ -84,7 +84,7 @@
         "description": "",
         "show_description": true,
         "description_style": "body",
-        "collection": "vichy",
+        "collection": "vichy-liftactiv",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": true,
