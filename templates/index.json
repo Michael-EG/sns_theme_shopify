@@ -251,6 +251,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165169949458aa8666": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "a393fdae-8dd1-4eca-aa2c-9dd509767342": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "footer-navigation-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "a393fdae-8dd1-4eca-aa2c-9dd509767342"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -259,6 +281,7 @@
     "featured_collection",
     "1651550007c6814bc7",
     "multicolumn",
-    "1651548916c2687b80"
+    "1651548916c2687b80",
+    "165169949458aa8666"
   ]
 }
