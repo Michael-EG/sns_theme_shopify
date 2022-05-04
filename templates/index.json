@@ -7,7 +7,7 @@
           "type": "custom_nav_menu",
           "settings": {
             "menu": "main-menu-1",
-            "color_scheme": "accent-1",
+            "color_scheme": "accent-2",
             "main_menu_text_color_scheme": "accent-2",
             "dropdown_color_scheme": "accent-1",
             "child_menu_text_color_scheme": "accent-1",
@@ -82,7 +82,7 @@
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h1",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
         "collection": "vichy",
         "products_to_show": 12,

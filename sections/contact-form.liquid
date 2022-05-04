@@ -1,4 +1,5 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'section-constact-form-override.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -14,6 +15,19 @@
   }
 {%- endstyle -%}
 
+<script>
+  function overrideFunction() {
+    console.log('hi')
+    {% comment %} console.log({{ form | json }}) {% endcomment %}
+    {% comment %} console.log({{ customer | json }}) {% endcomment %}
+    console.log(document.getElementById('ContactForm-name').value)
+    console.log(document.getElementById('ContactForm-email').value)
+    console.log(document.getElementById('ContactForm-phone').value)
+    console.log(document.getElementById('ContactForm-body').value)
+    document.getElementById('form_submit_button').click()
+  }
+</script>
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
@@ -23,6 +37,7 @@
     {%- endif -%}
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
+        {% comment %} <script>console.log({{ template | json }})</script> {% endcomment %}
         <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
       {%- elsif form.errors -%}
         <div class="form__message">
@@ -84,7 +99,10 @@
         <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
       </div>
       <div class="contact__button">
-        <button type="submit" class="button">
+        <button type="button" class="button" onclick="overrideFunction()">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+        <button id="form_submit_button" type="submit" class="button conact-form__hide-submit-button">
           {{ 'templates.contact.form.send' | t }}
         </button>
       </div>
