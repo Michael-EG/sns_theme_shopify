@@ -55,16 +55,16 @@
           "settings": {
             "heading": "Shipping Fees",
             "icon": "price_tag",
-            "row_content": "<p>For Cairo & Giza:           25 EGP<br\/>For Alexandria:              50 EGP<br\/>For Anywhere in Egypt: 75 EGP<\/p>",
+            "row_content": "<p>Cairo & Giza:           25 EGP<br\/>Alexandria:              50 EGP<br\/>Anywhere in Egypt: 75 EGP<\/p>",
             "page": ""
           }
         },
         "1651701435fd7320f2-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Delivery Times",
+            "icon": "stopwatch",
+            "row_content": "<p>Cairo & Giza: Usually 3-4 working days<br\/>Alexandria: Usually 5-6 working days<br\/><\/p>",
             "page": ""
           }
         },
@@ -110,7 +110,6 @@
     },
     "1651701718f74bb3a4": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "16517017182fa875f7-0": {
           "type": "column",
@@ -123,7 +122,6 @@
         },
         "16517017182fa875f7-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -133,7 +131,6 @@
         },
         "16517017182fa875f7-2": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
