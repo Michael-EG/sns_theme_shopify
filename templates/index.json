@@ -1,27 +1,5 @@
 {
   "sections": {
-    "1651527945c2bbfbae": {
-      "type": "custom-navigation-bar",
-      "blocks": {
-        "1a98c575-b835-4c7b-a265-4d36d5e85996": {
-          "type": "custom_nav_menu",
-          "settings": {
-            "menu": "main-menu-1",
-            "color_scheme": "accent-2",
-            "main_menu_text_color_scheme": "accent-2",
-            "dropdown_color_scheme": "accent-1",
-            "child_menu_text_color_scheme": "accent-1",
-            "grandchild_color_scheme": "accent-1",
-            "grandchild_menu_text_color_scheme": "accent-2"
-          }
-        }
-      },
-      "block_order": [
-        "1a98c575-b835-4c7b-a265-4d36d5e85996"
-      ],
-      "settings": {
-      }
-    },
     "165152828421d00ce9": {
       "type": "slideshow",
       "blocks": {
@@ -69,11 +47,33 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "dots",
+        "slider_visual": "counter",
         "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": false,
         "accessibility_info": "Slideshow about our products"
+      }
+    },
+    "1651527945c2bbfbae": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "1a98c575-b835-4c7b-a265-4d36d5e85996": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "main-menu-1",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "inverse",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "1a98c575-b835-4c7b-a265-4d36d5e85996"
+      ],
+      "settings": {
       }
     },
     "featured_collection": {
@@ -87,11 +87,11 @@
         "collection": "vichy",
         "products_to_show": 12,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -254,8 +254,8 @@
     }
   },
   "order": [
-    "1651527945c2bbfbae",
     "165152828421d00ce9",
+    "1651527945c2bbfbae",
     "featured_collection",
     "1651550007c6814bc7",
     "multicolumn",
