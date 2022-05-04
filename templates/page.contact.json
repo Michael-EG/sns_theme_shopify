@@ -34,11 +34,34 @@
       ],
       "settings": {
       }
+    },
+    "1651702773c0c55af9": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "cafdbc7d-cabc-412d-8de9-dc71ee1ceb90": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "footer-navigation-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "cafdbc7d-cabc-412d-8de9-dc71ee1ceb90"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "16514114936111efe4"
+    "16514114936111efe4",
+    "1651702773c0c55af9"
   ]
 }
