@@ -49,15 +49,14 @@
     },
     "1651701435e0045157": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "1651701435fd7320f2-0": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Shipping Fees",
             "icon": "price_tag",
-            "row_content": "",
-            "page": "about-us"
+            "row_content": "<p>For Cairo & Giza:           25 EGP<br\/>For Alexandria:              50 EGP<br\/>For Anywhere in Egypt: 75 EGP<\/p>",
+            "page": ""
           }
         },
         "1651701435fd7320f2-1": {
@@ -111,18 +110,20 @@
     },
     "1651701718f74bb3a4": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16517017182fa875f7-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Region",
+            "text": "<p><strong>Cairo & Giza<br\/><\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "16517017182fa875f7-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -132,6 +133,7 @@
         },
         "16517017182fa875f7-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -161,12 +163,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651701925d0a6ca00": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16517019255dd7baaf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16517019255dd7baaf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16517019255dd7baaf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16517019255dd7baaf-0",
+        "16517019255dd7baaf-1",
+        "16517019255dd7baaf-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "165170142781988909",
     "1651701435e0045157",
-    "1651701718f74bb3a4"
+    "1651701718f74bb3a4",
+    "1651701925d0a6ca00"
   ]
 }
