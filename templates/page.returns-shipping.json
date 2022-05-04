@@ -76,32 +76,22 @@
             "row_content": "<p>RETURNS POLICY<\/p><p>If for any reason, you are not entirely happy with your purchase, we will gladly offer an exchange on all products returned to us within 7 working days of your receipt. Unopened, with all original product packaging and hygiene seals untouched.  <\/p><p>We are unable to offer a refund, replacement, or exchange on items on personal care products such as Brushes (i.e. hair and body), Loofahs, Satin items ( i.e hair scrunchies, sleeping masks, pillow-cases, and hair bonnets), and Makeup due to hygiene reasons.<\/p><p>Returns must be sent back in their original packaging, unopened and unused condition. Unfortunately, we will not refund delivery costs to any returned item. If you have any queries regarding returning your order, don’t hesitate to contact our customer service.<\/p>",
             "page": ""
           }
-        },
-        "1651701435fd7320f2-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "1651701435fd7320f2-0",
         "1651701435fd7320f2-1",
-        "1651701435fd7320f2-2",
-        "1651701435fd7320f2-3"
+        "1651701435fd7320f2-2"
       ],
       "settings": {
         "caption": "",
-        "heading": "Returns & Shipping Instructions",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
