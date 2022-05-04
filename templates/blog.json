@@ -1,28 +1,5 @@
 {
   "sections": {
-    "1651702851d699acf4": {
-      "type": "custom-navigation-bar",
-      "disabled": true,
-      "blocks": {
-        "5bc42eef-f126-47db-89ce-dcbc03103c6d": {
-          "type": "custom_nav_menu",
-          "settings": {
-            "menu": "main-menu-1",
-            "color_scheme": "accent-2",
-            "main_menu_text_color_scheme": "accent-2",
-            "dropdown_color_scheme": "accent-1",
-            "child_menu_text_color_scheme": "accent-1",
-            "grandchild_color_scheme": "accent-1",
-            "grandchild_menu_text_color_scheme": "accent-2"
-          }
-        }
-      },
-      "block_order": [
-        "5bc42eef-f126-47db-89ce-dcbc03103c6d"
-      ],
-      "settings": {
-      }
-    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -59,7 +36,6 @@
     }
   },
   "order": [
-    "1651702851d699acf4",
     "main",
     "1651702838b0339006"
   ]
