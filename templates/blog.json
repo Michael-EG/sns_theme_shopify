@@ -2,6 +2,7 @@
   "sections": {
     "1651702851d699acf4": {
       "type": "custom-navigation-bar",
+      "disabled": true,
       "blocks": {
         "5bc42eef-f126-47db-89ce-dcbc03103c6d": {
           "type": "custom_nav_menu",
