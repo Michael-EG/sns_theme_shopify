@@ -1,27 +1,5 @@
 {
   "sections": {
-    "165170396385675176": {
-      "type": "custom-navigation-bar",
-      "blocks": {
-        "67bc4e9b-e2d7-4ed7-bd48-6e0a89aebb00": {
-          "type": "custom_nav_menu",
-          "settings": {
-            "menu": "main-menu-1",
-            "color_scheme": "accent-2",
-            "main_menu_text_color_scheme": "accent-2",
-            "dropdown_color_scheme": "accent-1",
-            "child_menu_text_color_scheme": "accent-1",
-            "grandchild_color_scheme": "accent-2",
-            "grandchild_menu_text_color_scheme": "accent-2"
-          }
-        }
-      },
-      "block_order": [
-        "67bc4e9b-e2d7-4ed7-bd48-6e0a89aebb00"
-      ],
-      "settings": {
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -72,7 +50,6 @@
     }
   },
   "order": [
-    "165170396385675176",
     "banner",
     "product-grid",
     "1651702711424a9e13"
