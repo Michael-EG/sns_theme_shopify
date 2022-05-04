@@ -28,6 +28,7 @@
     },
     "1651696778a39fca67": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "16516967779267a6b7-0": {
           "type": "collapsible_row",
