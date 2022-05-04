@@ -8,6 +8,28 @@
         "padding_bottom": 28
       }
     },
+    "165170296802847ea7": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "f65ca7d7-7357-4793-863f-b602272be848": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "main-menu-1",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "f65ca7d7-7357-4793-863f-b602272be848"
+      ],
+      "settings": {
+      }
+    },
     "165170142781988909": {
       "type": "rich-text",
       "blocks": {
@@ -215,6 +237,7 @@
   },
   "order": [
     "main",
+    "165170296802847ea7",
     "165170142781988909",
     "1651701435e0045157",
     "1651701718f74bb3a4",
