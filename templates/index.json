@@ -65,7 +65,7 @@
             "main_menu_text_color_scheme": "inverse",
             "dropdown_color_scheme": "accent-1",
             "child_menu_text_color_scheme": "accent-1",
-            "grandchild_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-2",
             "grandchild_menu_text_color_scheme": "accent-2"
           }
         }
