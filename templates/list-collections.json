@@ -6,12 +6,12 @@
         "0a04e49b-0527-44be-9f27-79bd2d31092e": {
           "type": "custom_nav_menu",
           "settings": {
-            "menu": "main-menu",
-            "color_scheme": "accent-1",
+            "menu": "main-menu-1",
+            "color_scheme": "accent-2",
             "main_menu_text_color_scheme": "accent-2",
             "dropdown_color_scheme": "accent-1",
             "child_menu_text_color_scheme": "accent-1",
-            "grandchild_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-2",
             "grandchild_menu_text_color_scheme": "accent-2"
           }
         }
