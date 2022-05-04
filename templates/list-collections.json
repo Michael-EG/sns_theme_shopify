@@ -1,15 +1,63 @@
 {
   "sections": {
+    "165170406034efc090": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "0a04e49b-0527-44be-9f27-79bd2d31092e": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "main-menu",
+            "color_scheme": "accent-1",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "0a04e49b-0527-44be-9f27-79bd2d31092e"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "16517040554efe4e4e": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "87b5a643-324a-4da9-a4e7-8da80727cb8d": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "footer-navigation-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "87b5a643-324a-4da9-a4e7-8da80727cb8d"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "165170406034efc090",
+    "main",
+    "16517040554efe4e4e"
   ]
 }
