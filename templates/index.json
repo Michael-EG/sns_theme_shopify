@@ -123,8 +123,8 @@
         "16515500076b11ca6f-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View Blog",
+            "button_link": "shopify:\/\/blogs\/korean-beauty"
           }
         }
       },
