@@ -2,13 +2,54 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165170142781988909": {
+      "type": "rich-text",
+      "blocks": {
+        "16517014270f57a2df-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns & Shipping",
+            "heading_size": "h1"
+          }
+        },
+        "16517014270f57a2df-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16517014270f57a2df-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16517014270f57a2df-0",
+        "16517014270f57a2df-1",
+        "16517014270f57a2df-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165170142781988909"
   ]
 }
