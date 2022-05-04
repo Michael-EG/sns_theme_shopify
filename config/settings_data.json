@@ -1,7 +1,7 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#5f4b66",
+    "colors_accent_1": "#ffd6f5",
     "gradient_accent_1": "",
     "colors_accent_2": "#87677b",
     "gradient_accent_2": "",
@@ -44,7 +44,7 @@
     "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "accent-2",
+    "card_color_scheme": "background-1",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
