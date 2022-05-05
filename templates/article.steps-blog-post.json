@@ -106,9 +106,9 @@
         "84374951-c114-46af-8186-fa77f4a65c0b": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Eye cream",
+            "icon": "none",
+            "row_content": "<p>The skin around your eyes is the thinnest and most delicate on your face, and regularly using an intensive eye cream can keep dark circles, puffiness, and crow’s-feet at bay. Eye creams are concentrated with beneficial ingredients and formulated to be extra gentle and non-irritating.<\/p>",
             "page": ""
           }
         },
