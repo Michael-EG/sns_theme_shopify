@@ -44,7 +44,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Make up remover & Cleanser",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Oil cleansers are the base of the Korean skin care routine and the first step of the double cleanse. They're not only relaxing to use; as you gently massage these cleansers in, they also remove makeup and draw out other oil-based impurities, such as sebum, SPF, and pollution.<br\/>      <\/p>",
             "page": ""
           }
@@ -52,18 +52,18 @@
         "165168898670e3ea59-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Water based cleanser",
+            "icon": "none",
+            "row_content": "<p>The second step of the double cleanse. Cleansing twice is recommended by aestheticians and dermatologists  because it helps to thoroughly remove any impurities that can cause breakouts.  Water-based cleansers dissolve the water-based impurities such as dirt and sweat that your oil cleanser didn't pick up.<br\/>      <\/p>",
             "page": ""
           }
         },
         "165168898670e3ea59-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Exfoliator",
+            "icon": "none",
+            "row_content": "<p>Physical and chemical exfoliation help clean pores and slough off dead skin cells for visibly brighter and smoother skin. Regular exfoliation will also help your other skin care products absorb and work more efficiently!<br\/>      <\/p>",
             "page": ""
           }
         },
