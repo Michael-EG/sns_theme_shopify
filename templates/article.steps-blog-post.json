@@ -115,9 +115,9 @@
         "f7bbc6d1-65d1-4d1b-aff6-29f13540ded5": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Moisturizer",
+            "icon": "none",
+            "row_content": "<p>They come in many forms (emulsion, lotion, gel, cream, and sleeping mask) and seal in moisture to plump up skin and smooth fine lines.<\/p>",
             "page": ""
           }
         },
