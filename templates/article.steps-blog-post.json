@@ -124,9 +124,9 @@
         "fad0aa90-a03a-4ecc-a150-519fabcb9309": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Sun protection",
+            "icon": "none",
+            "row_content": "<p>You should always wear sunscreen, even if you’ll be inside most of the day. It’s the easiest and most effective way to prevent premature aging (and skin cancer!). Sunscreen should be your last step so it can shield your skin without being diluted by additional products.<\/p>",
             "page": ""
           }
         }
