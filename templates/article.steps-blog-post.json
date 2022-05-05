@@ -75,13 +75,73 @@
             "row_content": "<p>Toners are the ultimate prep product, removing any leftover residue from your cleansers while also repairing your skin’s barrier to effectively absorb the moisturizers that follow. Think of your skin like a sponge—it’s more difficult to rehydrate it when it’s dried up and hardened than when it’s already a bit damp.<\/p>",
             "page": ""
           }
+        },
+        "30a52878-685d-4545-9a76-9c4331322e85": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Essence",
+            "icon": "none",
+            "row_content": "<p>Essences are lightweight and packed with a concentrated blend of hydrating, anti-aging, and complexion-enhancing ingredients<\/p>",
+            "page": ""
+          }
+        },
+        "13d60e44-4050-4998-966e-94f7dcf5ad59": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "f44fba26-91a5-4418-8e43-8a31267210c3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "84374951-c114-46af-8186-fa77f4a65c0b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "f7bbc6d1-65d1-4d1b-aff6-29f13540ded5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "fad0aa90-a03a-4ecc-a150-519fabcb9309": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "165168898670e3ea59-0",
         "165168898670e3ea59-1",
         "165168898670e3ea59-2",
-        "165168898670e3ea59-3"
+        "165168898670e3ea59-3",
+        "30a52878-685d-4545-9a76-9c4331322e85",
+        "13d60e44-4050-4998-966e-94f7dcf5ad59",
+        "f44fba26-91a5-4418-8e43-8a31267210c3",
+        "84374951-c114-46af-8186-fa77f4a65c0b",
+        "f7bbc6d1-65d1-4d1b-aff6-29f13540ded5",
+        "fad0aa90-a03a-4ecc-a150-519fabcb9309"
       ],
       "settings": {
         "caption": "",
