@@ -70,9 +70,9 @@
         "165168898670e3ea59-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Toner",
+            "icon": "none",
+            "row_content": "<p>Toners are the ultimate prep product, removing any leftover residue from your cleansers while also repairing your skin’s barrier to effectively absorb the moisturizers that follow. Think of your skin like a sponge—it’s more difficult to rehydrate it when it’s dried up and hardened than when it’s already a bit damp.<\/p>",
             "page": ""
           }
         }
