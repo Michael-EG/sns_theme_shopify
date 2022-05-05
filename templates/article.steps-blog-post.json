@@ -88,9 +88,9 @@
         "13d60e44-4050-4998-966e-94f7dcf5ad59": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Treatments",
+            "icon": "none",
+            "row_content": "<p>Boosters, serums, and ampoules are the ultimate skin perfectors. Packed with powerhouse ingredients, they target specific skin concerns such as acne, fine lines, and hyperpigmentation.<\/p>",
             "page": ""
           }
         },
