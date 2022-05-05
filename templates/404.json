@@ -1,10 +1,35 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1651742940d704317a": {
+      "type": "custom-navigation-bar",
+      "blocks": {
+        "d8801d1e-220f-455b-96dd-e3d75ad9519d": {
+          "type": "custom_nav_menu",
+          "settings": {
+            "menu": "footer-navigation-menu",
+            "color_scheme": "accent-2",
+            "main_menu_text_color_scheme": "accent-2",
+            "dropdown_color_scheme": "accent-1",
+            "child_menu_text_color_scheme": "accent-1",
+            "grandchild_color_scheme": "accent-1",
+            "grandchild_menu_text_color_scheme": "accent-2"
+          }
+        }
+      },
+      "block_order": [
+        "d8801d1e-220f-455b-96dd-e3d75ad9519d"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1651742940d704317a"
   ]
 }
